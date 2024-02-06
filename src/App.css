@@ -1,0 +1,40 @@
+.pokemonCard {
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.pokemonCard img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid grey;
+}
+
+.card {
+  background-color: #3e3e3e;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  height: 450px;
+  border: 1px solid black;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid grey;
+}
+
+.pokemonsList {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
